@@ -14,13 +14,18 @@
         }
     },
     "require": {
-        "php": ">=8.1.1",
+        "php": ">=8.0.1",
         "ext-gd": "*",
-        "illuminate/config": "^9.0",
-        "illuminate/filesystem": "^9.0",
-        "illuminate/support": "^9.0",
-        "illuminate/hashing": "^9.0",
-        "intervention/image": "^2.2"
+        "illuminate/config": "~5.0",
+        "illuminate/filesystem": "~5.0",
+        "illuminate/support": "~5.0",
+        "illuminate/hashing": "~5.0",
+        "intervention/image": "~2.2"
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "config": {
+        "allow-plugins": {
+            "kylekatarnls/update-helper": true
+        }
+    }
 }
