@@ -1,0 +1,26 @@
+{
+    "name": "dianthink/captcha",
+    "description": "Captcha for Lumen，Lumen 验证码",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dianthink"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Dianthink\\Captcha\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.1.1",
+        "ext-gd": "*",
+        "illuminate/config": "~9.0",
+        "illuminate/filesystem": "~9.0",
+        "illuminate/support": "~9.0",
+        "illuminate/hashing": "~9.0",
+        "intervention/image": "~2.2"
+    },
+    "minimum-stability": "dev"
+}
